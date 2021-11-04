@@ -1,0 +1,5 @@
+Build on Windows
+	g++ -O2 -Wall -Wextra -Wno-unused -I. -IC:\Users\khang\Downloads\Task3\RSA\cryptopp main.cpp -o main -LC:\Users\khang\Downloads\Task3\RSA\lib -l:libcryptopp_win.a
+
+Build on Linux
+	g++ -O2 -Wall -Wextra -Wno-unused -I. -I/home/kali/Desktop/RSA/cryptopp main.cpp -o main -L/home/kali/Desktop/RSA/lib -l:libcryptopp_linux.a
